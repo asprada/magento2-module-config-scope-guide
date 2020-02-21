@@ -1,0 +1,28 @@
+{
+  "name": "asprada/magento2-module-config-scope-guide",
+  "description": "",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Adam Sprada",
+      "email": "adam.sprada@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "~7.1.0",
+    "magento/module-config": "*"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Asp\\ConfigScopeGuide\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}

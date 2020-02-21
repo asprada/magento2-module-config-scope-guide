@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package Asp\ConfigScopeGuide
+ * @author Adam Sprada <adam.sprada@gmail.com>
+ * @copyright 2020 Adam Sprada
+ * @license See LICENSE for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Config\Model\Config\Structure\Element\Field">
+        <plugin name="asp_config_scope_guide_magento_config_structure_element_field_plugin"
+                type="Asp\ConfigScopeGuide\Plugin\ConfigGuidePlugin"
+                sortOrder="1"
+                disabled="false" />
+    </type>
+</config>
